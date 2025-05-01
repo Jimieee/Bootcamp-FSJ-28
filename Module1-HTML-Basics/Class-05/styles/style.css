@@ -1,0 +1,51 @@
+.hero-section {
+  background-image: url('https://res.cloudinary.com/dmddi5ncx/image/upload/v1710868812/practicas/site_montain/shutterstock_116403520_e3nbz8.jpg');
+  background-size: cover;
+  background-position: center -50px;
+  min-height: 400px;
+  position: relative;
+}
+
+.activity-icon {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.activity-card {
+  transition: transform 0.3s ease;
+  height: 100%;
+}
+
+.activity-card:hover {
+  transform: translateY(-5px);
+}
+
+footer {
+  background-color: #333;
+  color: white;
+}
+
+.social-icons i {
+  font-size: 1.5rem;
+  margin-right: 15px;
+}
+
+.btn-learn-more {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 4px;
+}
+
+.btn-learn-more:hover {
+  background-color: #555;
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .hero-section {
+    min-height: 150px;
+  }
+}
